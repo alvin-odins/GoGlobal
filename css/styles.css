@@ -1,0 +1,263 @@
+body{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-size: 18px;
+	background-color: silver;
+}
+
+#nav{
+	background-color: #222;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav ul li{
+	display: inline-block;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav ul li:hover{
+	background-color: #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav ul li img{
+	vertical-align: middle;
+}
+
+#nav ul li a,visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#nav ul li a:hover{
+	color: #ccc;
+	text-decoration: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#nav ul li:hover ul{
+	display: block;
+}
+
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	border: 5px solid #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 150px;
+}
+
+#nav ul ul li{
+	display: block;
+}
+
+#nav ul ul li a,visited{
+	color: #ccc;
+}
+
+#nav ul ul li a:hover{
+	color: #099;
+}
+
+
+.mainFooter{
+	width: 100%;
+	height: 30px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/*background-color: #456;*/
+	background-color: #222;
+	margin: 2% 0;
+}
+
+.mainFooter p{
+	width: 92%;
+	margin: 5px auto;
+	color: #ccc;
+	text-align: center;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+
+
+.mainContent{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	line-height: 25px;
+	/*overflow: hidden; */
+}
+
+.content{
+	width: 55%;
+	float: left;
+	text-align: justify;
+	margin: 2% 2%;
+	position: ;
+}
+
+.topContent{
+	background-color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+}
+
+.bottomContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 1%;
+}
+
+.mapContent{
+	padding: 2% 0%;
+	margin-top: 4%;
+	width: 640px;
+}
+
+video{
+	float: left;
+	width: 50%;
+	margin: 1% 2%;
+}
+
+
+.top-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 3% 0 2% 3%;
+	padding: 2% 3%;
+}
+
+.middle-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+
+.bottom-sidebar form{
+	font-family: Arial, 'lucida sans unicode';
+	font-size: 16px;
+	line-height: 35px;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: #467;
+}
+
+
+.bottom-sidebar input{
+	font-family: Arial, 'lucida sans unicode';
+	font-size: 9px;
+	line-height: 8px;
+	padding: ;
+	float: right;
+}
+
+
+.social-sidebar{
+	width: 11%;
+	float: right;
+	background-color: #467;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-right: 25%;
+	margin-bottom: 2%;
+	padding: 2% 1%;
+}
+
+.social-sidebar h2{
+	font-size: 18px;
+}
+
+
+.post-info{
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+/* connect socially */
+div.fb img{
+	border: 1px solid #da1;
+	width: 40px;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+
+div.twit img{
+	border: 1px solid #da1;
+	width: 40px;
+	height: 40px;
+	float: left;
+	position: ;
+	margin: 0% 4%;
+	padding: 0% auto;
+}
